@@ -19,9 +19,11 @@ class HomeProvider extends ChangeNotifier {
           products.add(Product.fromJson(element));
         });
       }
+
       products.forEach((element) {
         print("Prince ${element.price}");
       });
+      notifyListeners();
     });
   }
 }

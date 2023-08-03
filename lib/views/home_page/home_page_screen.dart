@@ -39,16 +39,7 @@ class _HomePageScreenWidgetState extends State<HomePageScreenWidget> {
               children: const [
                 TopAppBarTile(),
                 CenterTextArae(),
-                TabBar(
-                  tabs: [
-                    Tab(
-                      text: "Tasks",
-                    ),
-                    Tab(
-                      text: "Completed",
-                    )
-                  ],
-                ),
+                TabBar(tabs: [Tab(text: "Tasks"), Tab(text: "Completed")]),
                 Expanded(
                     child: TabBarView(children: [
                   //First TabView Screen
