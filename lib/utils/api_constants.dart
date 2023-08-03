@@ -1,3 +1,3 @@
 class ApiConstant {
-  static String apiUrl = "https://dummyjson.com/products";
+  static String apiUrl = "https://dummyjson.com/productss";
 }
